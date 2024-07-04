@@ -1,0 +1,42 @@
+.graviton-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.Header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #041517;
+    padding: 14px;
+    
+}
+
+
+.header-right {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 18px;
+    font-weight: 600;
+}
+
+.header-button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #e8651e;
+    margin-left: 20px;
+    border-radius: 12px;
+    border: solid 2px black;
+}
