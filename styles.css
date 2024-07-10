@@ -27,7 +27,7 @@
     font-weight: 600;
 }
 
-.header-button, .hero-button {
+.header-button, .hero-button, .cta-button {
     color: white;
     font-size: 18px;
     font-weight: 700;
@@ -36,6 +36,12 @@
     border-radius: 12px;
     border: solid 2px black;
     padding: 8px;
+}
+
+.cta-button {
+    border: solid 2px white;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
 }
 
 .hero-button {
@@ -85,7 +91,6 @@
 .subtitle-hero, {
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 6px;
 }
 
 .Quotation {
@@ -154,4 +159,31 @@
 .signature {
     display: flex;;
     justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-bottom: 120px;
+    font-family: "Adamina", serif;
+    font-style: normal;  
+    background-color: #3882F6;
+    padding: 60px;
+    border-radius: 16px;
+    margin-top: 100px;
+}
+
+.cta-left {
+    color: white;
+    font-size: 18px;
+    font-family: "Adamina", serif;
+    font-style: normal;
+}
+
+.contact-title {
+    font-weight: 700;
 }
