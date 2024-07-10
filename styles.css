@@ -1,6 +1,6 @@
 .graviton-logo {
     width: 100px;
-    height: 100 px;
+    height: 100px;
 }
 
 .Header {
@@ -82,10 +82,19 @@
     margin-bottom: 6px;
   }
 
-.subtitle-hero {
+.subtitle-hero, {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 6px;
+}
+
+.Quotation {
+
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-style: italic;
 }
 
 .services-container {
@@ -95,6 +104,8 @@
     margin: 0 auto;
     max-width: 1170px;
     margin-bottom: 120px;
+    font-family: "Adamina", serif;
+    font-style: normal;  
 }
 
 .services {
@@ -105,8 +116,6 @@
     gap: 16px;
     font-size: 18px;
     max-width: 190px;
-    font-family: "Adamina", serif;
-    font-style: normal;  
 }
 
 .services-image {
@@ -123,6 +132,26 @@
     align-items: center;
     font-size: 28px;
     margin: 40px;
+}
+
+.quotation-container, .signature {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Adamina", serif;
-    font-style: normal;  
+    font-style: normal; 
+    margin: 0 auto;
+    max-width: 1100px;
+    box-shadow: 0 0 0 100vmax lightgray;
+    clip-path: inset(0 -100vmax);
+}
+
+.quotation-credentials {
+    font-weight: 800;
+}
+
+.signature {
+    display: flex;;
+    justify-content: flex-end;
 }
